@@ -15,6 +15,7 @@
 		7F7D1BBB210F4ABF00244EB7 /* SampleDesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BBA210F4ABF00244EB7 /* SampleDesignPatternsTests.swift */; };
 		7F7D1BC6210F4ABF00244EB7 /* SampleDesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BC5210F4ABF00244EB7 /* SampleDesignPatternsUITests.swift */; };
 		7F7D1BD5210F4B5200244EB7 /* Creational Patten.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */; };
+		7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7F7D1BC5210F4ABF00244EB7 /* SampleDesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDesignPatternsUITests.swift; sourceTree = "<group>"; };
 		7F7D1BC7210F4ABF00244EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Creational Patten.rtf"; sourceTree = "<group>"; };
+		7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		7F7D1BD6210F4B5900244EB7 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */,
 				7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */,
 				7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */,
 			);
