@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F693DCB2111BD5700B189CC /* Structural Pattern.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */; };
+		7F693DCD2111C0B900B189CC /* ExampleFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F693DCC2111C0B900B189CC /* ExampleFacade.swift */; };
 		7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */; };
 		7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BA7210F4ABE00244EB7 /* ViewController.swift */; };
 		7F7D1BAB210F4ABE00244EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1BA9210F4ABE00244EB7 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Structural Pattern.rtf"; sourceTree = "<group>"; };
+		7F693DCC2111C0B900B189CC /* ExampleFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFacade.swift; sourceTree = "<group>"; };
 		7F7D1BA2210F4ABE00244EB7 /* SampleDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F7D1BA7210F4ABE00244EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		7F7D1BA4210F4ABE00244EB7 /* SampleDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				7F7D1BDC21109DDB00244EB7 /* Structural */,
 				7F7D1BD3210F4ADE00244EB7 /* Creational */,
 				7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */,
 				7F7D1BA7210F4ABE00244EB7 /* ViewController.swift */,
@@ -135,9 +140,9 @@
 		7F7D1BD3210F4ADE00244EB7 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */,
 				7F7D1BD6210F4B5900244EB7 /* Singleton */,
 				7F7D1BD9211064C800244EB7 /* Factory */,
-				7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -156,6 +161,23 @@
 				7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		7F7D1BDC21109DDB00244EB7 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				7F7D1BDD21109E9000244EB7 /* Facade */,
+				7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		7F7D1BDD21109E9000244EB7 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				7F693DCC2111C0B900B189CC /* ExampleFacade.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +287,7 @@
 				7F7D1BB0210F4ABF00244EB7 /* LaunchScreen.storyboard in Resources */,
 				7F7D1BD5210F4B5200244EB7 /* Creational Patten.rtf in Resources */,
 				7F7D1BAD210F4ABF00244EB7 /* Assets.xcassets in Resources */,
+				7F693DCB2111BD5700B189CC /* Structural Pattern.rtf in Resources */,
 				7F7D1BAB210F4ABE00244EB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +316,7 @@
 				7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */,
 				7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */,
 				7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */,
+				7F693DCD2111C0B900B189CC /* ExampleFacade.swift in Sources */,
 				7F7D1BDB211083CC00244EB7 /* ExampleFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
