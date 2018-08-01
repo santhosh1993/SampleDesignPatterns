@@ -12,44 +12,77 @@ import Foundation
 
 // MARK:- Multiple instances for a Client
 protocol PAccount {
-    func action()
+    func deposit(amount:Double)
+    func withdraw(amount:Double)
+    func transfer(amount:Double)
 }
 
 class Chequing: PAccount {
-    func action() {
+    func deposit(amount: Double) {
         
     }
+    
+    func withdraw(amount: Double) {
+        
+    }
+    
+    func transfer(amount: Double) {
+        
+    }
+    
 }
 
 class Saving: PAccount {
-    func action() {
+    func deposit(amount: Double) {
         
     }
+    
+    func withdraw(amount: Double) {
+        
+    }
+    
+    func transfer(amount: Double) {
+        
+    }
+    
 }
 
 class Investment: PAccount {
-    func action() {
+    func deposit(amount: Double) {
         
     }
+    
+    func withdraw(amount: Double) {
+        
+    }
+    
+    func transfer(amount: Double) {
+        
+    }
+    
 }
 
 //MARK:- Facade Interface for the Multiple instance for a Client
 
 class Bank {
-    private let chequing: Chequing = Chequing()
-    private let saving: Saving = Saving()
-    private let investment: Investment = Investment()
     
-    func doActionFor(type:String){
+    func createNewAccount(type:String) -> PAccount{
         switch  type{
         case "Chequing":
-            chequing.action()
+            return Chequing()
         case "Saving":
-            saving.action()
+            return Saving()
         case "Investment":
-            investment.action()
+            return Investment()
         default: break
         }
+        
+        return Saving()
+    }
+    
+    func transferMoney(account1:PAccount,account2:PAccount,amount:Double){
+        account1.transfer(amount: amount)
+        account2.deposit(amount: amount)
     }
 }
 
@@ -62,7 +95,9 @@ class Customer {
         bankAccount = account
     }
     
-    func actionForSavings() {
-        bankAccount.doActionFor(type: "Saving")
+    func moneyTransaction() {
+        let savingsAccount = bankAccount.createNewAccount(type: "Saving")
+        let InvestmentAccount = bankAccount.createNewAccount(type: "Investment")
+        bankAccount.transferMoney(account1: savingsAccount, account2: InvestmentAccount, amount: 1000)
     }
 }
