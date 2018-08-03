@@ -19,6 +19,7 @@
 		7F7D1BD5210F4B5200244EB7 /* Creational Patten.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */; };
 		7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */; };
 		7F7D1BDB211083CC00244EB7 /* ExampleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */; };
+		7FD8DCAE21145A3D0022B13D /* ExampleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Creational Patten.rtf"; sourceTree = "<group>"; };
 		7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSingleton.swift; sourceTree = "<group>"; };
 		7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFactory.swift; sourceTree = "<group>"; };
+		7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		7F7D1BDC21109DDB00244EB7 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				7F816C43211345320026E6EB /* Adapter */,
 				7F7D1BDD21109E9000244EB7 /* Facade */,
 				7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */,
 			);
@@ -178,6 +181,14 @@
 				7F693DCC2111C0B900B189CC /* ExampleFacade.swift */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		7F816C43211345320026E6EB /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD8DCAE21145A3D0022B13D /* ExampleAdapter.swift in Sources */,
 				7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */,
 				7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */,
 				7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */,
