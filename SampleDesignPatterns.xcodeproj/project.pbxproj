@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F693DCB2111BD5700B189CC /* Structural Pattern.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */; };
-		7F693DCD2111C0B900B189CC /* ExampleFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F693DCC2111C0B900B189CC /* ExampleFacade.swift */; };
+		7F693DCD2111C0B900B189CC /* SampleFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F693DCC2111C0B900B189CC /* SampleFacade.swift */; };
 		7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */; };
 		7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BA7210F4ABE00244EB7 /* ViewController.swift */; };
 		7F7D1BAB210F4ABE00244EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1BA9210F4ABE00244EB7 /* Main.storyboard */; };
@@ -17,12 +17,12 @@
 		7F7D1BBB210F4ABF00244EB7 /* SampleDesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BBA210F4ABF00244EB7 /* SampleDesignPatternsTests.swift */; };
 		7F7D1BC6210F4ABF00244EB7 /* SampleDesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BC5210F4ABF00244EB7 /* SampleDesignPatternsUITests.swift */; };
 		7F7D1BD5210F4B5200244EB7 /* Creational Patten.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */; };
-		7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */; };
-		7F7D1BDB211083CC00244EB7 /* ExampleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */; };
+		7F7D1BD821105A8100244EB7 /* SampleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD721105A8100244EB7 /* SampleSingleton.swift */; };
+		7F7D1BDB211083CC00244EB7 /* SampleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BDA211083CC00244EB7 /* SampleFactory.swift */; };
 		7F98BFE3211DA28E0093113D /* SampleDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98BFE2211DA28E0093113D /* SampleDecorator.swift */; };
-		7FD8DCAE21145A3D0022B13D /* ExampleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */; };
-		7FD8DCB1211463A20022B13D /* ExampleComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB0211463A20022B13D /* ExampleComposite.swift */; };
-		7FD8DCB421186FB70022B13D /* ExampleProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB321186FB70022B13D /* ExampleProxy.swift */; };
+		7FD8DCAE21145A3D0022B13D /* SampleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCAD21145A3D0022B13D /* SampleAdapter.swift */; };
+		7FD8DCB1211463A20022B13D /* SampleComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB0211463A20022B13D /* SampleComposite.swift */; };
+		7FD8DCB421186FB70022B13D /* SampleProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB321186FB70022B13D /* SampleProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Structural Pattern.rtf"; sourceTree = "<group>"; };
-		7F693DCC2111C0B900B189CC /* ExampleFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFacade.swift; sourceTree = "<group>"; };
+		7F693DCC2111C0B900B189CC /* SampleFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFacade.swift; sourceTree = "<group>"; };
 		7F7D1BA2210F4ABE00244EB7 /* SampleDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F7D1BA7210F4ABE00244EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,12 +59,12 @@
 		7F7D1BC5210F4ABF00244EB7 /* SampleDesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDesignPatternsUITests.swift; sourceTree = "<group>"; };
 		7F7D1BC7210F4ABF00244EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Creational Patten.rtf"; sourceTree = "<group>"; };
-		7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSingleton.swift; sourceTree = "<group>"; };
-		7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFactory.swift; sourceTree = "<group>"; };
+		7F7D1BD721105A8100244EB7 /* SampleSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSingleton.swift; sourceTree = "<group>"; };
+		7F7D1BDA211083CC00244EB7 /* SampleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFactory.swift; sourceTree = "<group>"; };
 		7F98BFE2211DA28E0093113D /* SampleDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDecorator.swift; sourceTree = "<group>"; };
-		7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAdapter.swift; sourceTree = "<group>"; };
-		7FD8DCB0211463A20022B13D /* ExampleComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleComposite.swift; sourceTree = "<group>"; };
-		7FD8DCB321186FB70022B13D /* ExampleProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProxy.swift; sourceTree = "<group>"; };
+		7FD8DCAD21145A3D0022B13D /* SampleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAdapter.swift; sourceTree = "<group>"; };
+		7FD8DCB0211463A20022B13D /* SampleComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleComposite.swift; sourceTree = "<group>"; };
+		7FD8DCB321186FB70022B13D /* SampleProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,7 @@
 		7F7D1BA4210F4ABE00244EB7 /* SampleDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				7F98BFE4211DA7D20093113D /* Behavioural Design Patterns  */,
 				7F7D1BDC21109DDB00244EB7 /* Structural */,
 				7F7D1BD3210F4ADE00244EB7 /* Creational */,
 				7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */,
@@ -158,7 +159,7 @@
 		7F7D1BD6210F4B5900244EB7 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */,
+				7F7D1BD721105A8100244EB7 /* SampleSingleton.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -166,7 +167,7 @@
 		7F7D1BD9211064C800244EB7 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */,
+				7F7D1BDA211083CC00244EB7 /* SampleFactory.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -174,12 +175,12 @@
 		7F7D1BDC21109DDB00244EB7 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */,
 				7F8A24FF2119C6D300026220 /* Decorator Pattern */,
 				7FD8DCB22114BCA80022B13D /* Proxy */,
 				7FD8DCAF211463780022B13D /* Composite */,
 				7F816C43211345320026E6EB /* Adapter */,
 				7F7D1BDD21109E9000244EB7 /* Facade */,
-				7F693DCA2111BD5700B189CC /* Structural Pattern.rtf */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -187,7 +188,7 @@
 		7F7D1BDD21109E9000244EB7 /* Facade */ = {
 			isa = PBXGroup;
 			children = (
-				7F693DCC2111C0B900B189CC /* ExampleFacade.swift */,
+				7F693DCC2111C0B900B189CC /* SampleFacade.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -195,7 +196,7 @@
 		7F816C43211345320026E6EB /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */,
+				7FD8DCAD21145A3D0022B13D /* SampleAdapter.swift */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -208,10 +209,17 @@
 			path = "Decorator Pattern";
 			sourceTree = "<group>";
 		};
+		7F98BFE4211DA7D20093113D /* Behavioural Design Patterns  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Behavioural Design Patterns ";
+			sourceTree = "<group>";
+		};
 		7FD8DCAF211463780022B13D /* Composite */ = {
 			isa = PBXGroup;
 			children = (
-				7FD8DCB0211463A20022B13D /* ExampleComposite.swift */,
+				7FD8DCB0211463A20022B13D /* SampleComposite.swift */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -219,7 +227,7 @@
 		7FD8DCB22114BCA80022B13D /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				7FD8DCB321186FB70022B13D /* ExampleProxy.swift */,
+				7FD8DCB321186FB70022B13D /* SampleProxy.swift */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -357,15 +365,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FD8DCB1211463A20022B13D /* ExampleComposite.swift in Sources */,
-				7FD8DCAE21145A3D0022B13D /* ExampleAdapter.swift in Sources */,
-				7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */,
+				7FD8DCB1211463A20022B13D /* SampleComposite.swift in Sources */,
+				7FD8DCAE21145A3D0022B13D /* SampleAdapter.swift in Sources */,
+				7F7D1BD821105A8100244EB7 /* SampleSingleton.swift in Sources */,
 				7F98BFE3211DA28E0093113D /* SampleDecorator.swift in Sources */,
-				7FD8DCB421186FB70022B13D /* ExampleProxy.swift in Sources */,
+				7FD8DCB421186FB70022B13D /* SampleProxy.swift in Sources */,
 				7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */,
 				7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */,
-				7F693DCD2111C0B900B189CC /* ExampleFacade.swift in Sources */,
-				7F7D1BDB211083CC00244EB7 /* ExampleFactory.swift in Sources */,
+				7F693DCD2111C0B900B189CC /* SampleFacade.swift in Sources */,
+				7F7D1BDB211083CC00244EB7 /* SampleFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
