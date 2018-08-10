@@ -28,17 +28,16 @@
 \b0 \cf0 	
 \f1\fs28 the output of one system may not\'a0conform with the expected input of another system.\'a0You'll find that this is a recurring problem when\'a0your preexisting system needs to incorporate third-party libraries,\'a0or needs to connect to other systems.\'a0The adapter design pattern will help facilitate communication between\'a0two existing systems by providing a compatible interface.
 \f0\fs24 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf0 \
+\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \b \cf0 The Composite Pattern:\
 \pard\pardeftab720\sl320\partightenfactor0
 
 \f1\b0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 	A component interface serves as the supertype for a set of classes so\cf4 \strokec4 \'a0\cf2 \strokec2 that they can all be dealt with uniformly.\cf4 \strokec4 \'a0\cf2 \strokec2 This is done by enforcing polymorphism.\cf4 \strokec4 \'a0\cf2 \strokec2 All implementing classes conform to the same interface.\cf4 \strokec4 \'a0\cf2 \strokec2 An abstract superclass can also be used in placed of an interface\cf4 \strokec4 \'a0\cf2 \strokec2 as both are allowed for polymorphism.\
-	the composite design pattern is used to solve the issues of how to\cf4 \strokec4 \'a0\cf2 \strokec2 build a tree-like structure of objects, and\cf4 \strokec4 \'a0\cf2 \strokec2 how to treat the individual types of those objects uniformly.\cf4 \strokec4 \'a0\cf2 \strokec2 This is achieved by enforcing polymorphism\cf4 \strokec4 \'a0\cf2 \strokec2 across each class through implementing an interface or inheriting from a superclass.\cf4 \strokec4 \'a0\cf2 \strokec2 And using a technique called recursive composition,\cf4 \strokec4 \'a0\cf2 \strokec2 which allows objects to be composed of other objects that are of a common type.
-\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+	A component interface serves as the supertype for a set of classes so\cf4 \'a0\cf2 that they can all be dealt with uniformly.\cf4 \'a0\cf2 This is done by enforcing polymorphism.\cf4 \'a0\cf2 All implementing classes conform to the same interface.\cf4 \'a0\cf2 An abstract superclass can also be used in placed of an interface\cf4 \'a0\cf2 as both are allowed for polymorphism.\
+	the composite design pattern is used to solve the issues of how to\cf4 \'a0\cf2 build a tree-like structure of objects, and\cf4 \'a0\cf2 how to treat the individual types of those objects uniformly.\cf4 \'a0\cf2 This is achieved by enforcing polymorphism\cf4 \'a0\cf2 across each class through implementing an interface or inheriting from a superclass.\cf4 \'a0\cf2 And using a technique called recursive composition,\cf4 \'a0\cf2 which allows objects to be composed of other objects that are of a common type.
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 \cf0 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
@@ -50,8 +49,13 @@
 \
         Why do we want to use a proxy class?\'a0The three most common scenarios for them are: One,\'a0to act as a virtual proxy where the proxy class is used in place of a real subject class,\'a0that is resource intensive to instantiate.\'a0This is commonly used on images, and web pages,\'a0or graphics editors, because a single high definition image can be extremely large.\'a0If you were to load all of these images at once,\'a0it could put a strain on your system's resources.\'a0Two, to act as a protection proxy in order to control access to the real subject class.\'a0A protection proxy can be used in\'a0a learning management system that checks the credentials of a user.\'a0So the different users, like students and instructors,\'a0can only access the appropriate functions permitted by their role.\'a0And three, to act as a remote proxy,\'a0where the proxy class is local and the real subject class exists remotely.\
 \
-
-\f0\b\fs24 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
-	}
+
+\f0\b\fs24 \cf0 The Decorator Pattern:
+\f1\b0\fs28 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs32 \cf0 	it is used to modify the functionality of an object at runtime. At the same time other instances of the same class will not be affected by this, so individual object gets the modified behavior.\'a0
+\fs24 \
+	
+\f1\fs28 Not only does the decorator design pattern let you dynamically modify\'a0objects but it also reduces the variety of classes you would need to write.\'a0A larger code base not only takes more time to\'a0complete but it is also difficult to maintain,\'a0and can reduce the flexibility of your system.\'a0You want to have a robust system but without\'a0the headache of having an enormous amount of code to write and look after.\'a0Using design patterns like the decorator pattern will help you\'a0create complex software without the complex overhead.\'a0}

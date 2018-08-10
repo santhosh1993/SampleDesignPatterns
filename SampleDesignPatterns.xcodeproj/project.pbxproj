@@ -19,6 +19,7 @@
 		7F7D1BD5210F4B5200244EB7 /* Creational Patten.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */; };
 		7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */; };
 		7F7D1BDB211083CC00244EB7 /* ExampleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */; };
+		7F98BFE3211DA28E0093113D /* SampleDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98BFE2211DA28E0093113D /* SampleDecorator.swift */; };
 		7FD8DCAE21145A3D0022B13D /* ExampleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */; };
 		7FD8DCB1211463A20022B13D /* ExampleComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB0211463A20022B13D /* ExampleComposite.swift */; };
 		7FD8DCB421186FB70022B13D /* ExampleProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB321186FB70022B13D /* ExampleProxy.swift */; };
@@ -60,6 +61,7 @@
 		7F7D1BD4210F4B5200244EB7 /* Creational Patten.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Creational Patten.rtf"; sourceTree = "<group>"; };
 		7F7D1BD721105A8100244EB7 /* ExampleSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSingleton.swift; sourceTree = "<group>"; };
 		7F7D1BDA211083CC00244EB7 /* ExampleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFactory.swift; sourceTree = "<group>"; };
+		7F98BFE2211DA28E0093113D /* SampleDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDecorator.swift; sourceTree = "<group>"; };
 		7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAdapter.swift; sourceTree = "<group>"; };
 		7FD8DCB0211463A20022B13D /* ExampleComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleComposite.swift; sourceTree = "<group>"; };
 		7FD8DCB321186FB70022B13D /* ExampleProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProxy.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		7F7D1BDC21109DDB00244EB7 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				7F8A24FF2119C6D300026220 /* Decorator Pattern */,
 				7FD8DCB22114BCA80022B13D /* Proxy */,
 				7FD8DCAF211463780022B13D /* Composite */,
 				7F816C43211345320026E6EB /* Adapter */,
@@ -195,6 +198,14 @@
 				7FD8DCAD21145A3D0022B13D /* ExampleAdapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		7F8A24FF2119C6D300026220 /* Decorator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				7F98BFE2211DA28E0093113D /* SampleDecorator.swift */,
+			);
+			path = "Decorator Pattern";
 			sourceTree = "<group>";
 		};
 		7FD8DCAF211463780022B13D /* Composite */ = {
@@ -349,6 +360,7 @@
 				7FD8DCB1211463A20022B13D /* ExampleComposite.swift in Sources */,
 				7FD8DCAE21145A3D0022B13D /* ExampleAdapter.swift in Sources */,
 				7F7D1BD821105A8100244EB7 /* ExampleSingleton.swift in Sources */,
+				7F98BFE3211DA28E0093113D /* SampleDecorator.swift in Sources */,
 				7FD8DCB421186FB70022B13D /* ExampleProxy.swift in Sources */,
 				7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */,
 				7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */,
