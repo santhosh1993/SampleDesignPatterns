@@ -20,6 +20,8 @@
 		7F7D1BD821105A8100244EB7 /* SampleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BD721105A8100244EB7 /* SampleSingleton.swift */; };
 		7F7D1BDB211083CC00244EB7 /* SampleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D1BDA211083CC00244EB7 /* SampleFactory.swift */; };
 		7F98BFE3211DA28E0093113D /* SampleDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98BFE2211DA28E0093113D /* SampleDecorator.swift */; };
+		7F98BFE6211DC4290093113D /* Behavioural Pattern.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F98BFE5211DC4290093113D /* Behavioural Pattern.rtf */; };
+		7F98BFE9211DC4F30093113D /* SampleTemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98BFE8211DC4F30093113D /* SampleTemplateMethod.swift */; };
 		7FD8DCAE21145A3D0022B13D /* SampleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCAD21145A3D0022B13D /* SampleAdapter.swift */; };
 		7FD8DCB1211463A20022B13D /* SampleComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB0211463A20022B13D /* SampleComposite.swift */; };
 		7FD8DCB421186FB70022B13D /* SampleProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DCB321186FB70022B13D /* SampleProxy.swift */; };
@@ -62,6 +64,8 @@
 		7F7D1BD721105A8100244EB7 /* SampleSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSingleton.swift; sourceTree = "<group>"; };
 		7F7D1BDA211083CC00244EB7 /* SampleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFactory.swift; sourceTree = "<group>"; };
 		7F98BFE2211DA28E0093113D /* SampleDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDecorator.swift; sourceTree = "<group>"; };
+		7F98BFE5211DC4290093113D /* Behavioural Pattern.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Behavioural Pattern.rtf"; sourceTree = "<group>"; };
+		7F98BFE8211DC4F30093113D /* SampleTemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTemplateMethod.swift; sourceTree = "<group>"; };
 		7FD8DCAD21145A3D0022B13D /* SampleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAdapter.swift; sourceTree = "<group>"; };
 		7FD8DCB0211463A20022B13D /* SampleComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleComposite.swift; sourceTree = "<group>"; };
 		7FD8DCB321186FB70022B13D /* SampleProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProxy.swift; sourceTree = "<group>"; };
@@ -115,9 +119,9 @@
 		7F7D1BA4210F4ABE00244EB7 /* SampleDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				7F98BFE4211DA7D20093113D /* Behavioural Design Patterns  */,
 				7F7D1BDC21109DDB00244EB7 /* Structural */,
 				7F7D1BD3210F4ADE00244EB7 /* Creational */,
+				7F98BFE4211DA7D20093113D /* Behavioural Design Patterns  */,
 				7F7D1BA5210F4ABE00244EB7 /* AppDelegate.swift */,
 				7F7D1BA7210F4ABE00244EB7 /* ViewController.swift */,
 				7F7D1BA9210F4ABE00244EB7 /* Main.storyboard */,
@@ -212,8 +216,18 @@
 		7F98BFE4211DA7D20093113D /* Behavioural Design Patterns  */ = {
 			isa = PBXGroup;
 			children = (
+				7F98BFE5211DC4290093113D /* Behavioural Pattern.rtf */,
+				7F98BFE7211DC4BF0093113D /* Template Method Pattern */,
 			);
 			path = "Behavioural Design Patterns ";
+			sourceTree = "<group>";
+		};
+		7F98BFE7211DC4BF0093113D /* Template Method Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				7F98BFE8211DC4F30093113D /* SampleTemplateMethod.swift */,
+			);
+			path = "Template Method Pattern";
 			sourceTree = "<group>";
 		};
 		7FD8DCAF211463780022B13D /* Composite */ = {
@@ -337,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7D1BB0210F4ABF00244EB7 /* LaunchScreen.storyboard in Resources */,
+				7F98BFE6211DC4290093113D /* Behavioural Pattern.rtf in Resources */,
 				7F7D1BD5210F4B5200244EB7 /* Creational Patten.rtf in Resources */,
 				7F7D1BAD210F4ABF00244EB7 /* Assets.xcassets in Resources */,
 				7F693DCB2111BD5700B189CC /* Structural Pattern.rtf in Resources */,
@@ -370,6 +385,7 @@
 				7F7D1BD821105A8100244EB7 /* SampleSingleton.swift in Sources */,
 				7F98BFE3211DA28E0093113D /* SampleDecorator.swift in Sources */,
 				7FD8DCB421186FB70022B13D /* SampleProxy.swift in Sources */,
+				7F98BFE9211DC4F30093113D /* SampleTemplateMethod.swift in Sources */,
 				7F7D1BA8210F4ABE00244EB7 /* ViewController.swift in Sources */,
 				7F7D1BA6210F4ABE00244EB7 /* AppDelegate.swift in Sources */,
 				7F693DCD2111C0B900B189CC /* SampleFacade.swift in Sources */,
